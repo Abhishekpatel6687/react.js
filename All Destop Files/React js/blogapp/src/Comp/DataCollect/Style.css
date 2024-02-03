@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}   
+
+.tableRow{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 10px;
+    
+   
+}
+
+.tableRowContainer{
+    display: flex;
+    width: 50%;
+    background-color: rgb(113, 134, 136);
+    flex-direction: column;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    
+}
